@@ -2,14 +2,13 @@
 require pry
 def speak_to_grandma(string)
   if string == string.upcase
-    return puts "NO, NOT SINCE 1938!"
+    return "NO, NOT SINCE 1938!"
   elsif string == "I LOVE YOU GRANDMA!"
-    return puts "I LOVE YOU TOO PUMPKIN!"
+    return "I LOVE YOU TOO PUMPKIN!"
   else
-    return puts "HUH?! SPEAK UP, SONNY!"
+    return "HUH?! SPEAK UP, SONNY!"
   end
 end
-binding.pry
 
 # Whatever you say to grandma, she should respond with
 # HUH?! SPEAK UP, SONNY!
