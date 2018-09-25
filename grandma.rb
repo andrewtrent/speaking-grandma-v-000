@@ -8,6 +8,7 @@ def speak_to_grandma(string)
     return puts "HUH?! SPEAK UP, SONNY!"
   end
 end
+binding.pry
 
 # Whatever you say to grandma, she should respond with
 # HUH?! SPEAK UP, SONNY!
